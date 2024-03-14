@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Niramit", sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/*inicio arriba 1*/
+.arriba1 {
+    background-color: rgb(53, 95, 95);
+    width: 100%;
+    height: 100vh;
+    background-image: url(Pantalla\ 1\ fondo\ 1_Mesa\ de\ trabajo\ 1.png); 
+    background-size: cover;
+}
+.nav {
+    
+    width: 100%;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.barnav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+}
+
+
+.logo {
+    width: 4em;
+    height: 4em;
+   
+}
+.menu {
+    width: 20%;
+    height: 100%;
+    color: beige;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Inicio parte 2*/
+.parte2 {
+    background-image: url(Frame\ 2.png);
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*inicio menu*/
+.menu-medio{
+    background-color: rgb(217, 217, 217);
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+.arriba-menu{
+    width: 100%;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.izquierda-menu{
+    width: 40%;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: end;
+    background-image: url(Fondoizquierdagris_Mesa\ de\ trabajo\ 1.png);
+    background-size: cover;
+
+}
+.bowlgrande {
+    height: 25em;
+    width: 25em;
+
+}
+.circulocomida{
+    
+}
+
+.centro-menu{
+    width: 30%;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    align-items: left;
+    padding: 1em;
+
+
+}
+.titulochiqui {
+    color:black;
+    margin: 2em 0em;
+    padding: 0.4em 0em;
+    font-size: 1.6em;
+}
+.Titulogrande {
+    color: rgb(0, 34, 41);
+    font-size: 3em;
+    margin: 1em, 0em;
+
+}
+.calorias{
+    font-size: 1.4em; 
+}
+.derecha-menu {
+    width: 30%;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+
+}
+.cuadrado-grande {
+    width: 17em;
+    height: 90%;
+    margin: 0.1em 0em;
+    padding: 0em 0em;
+    background-color: rgb(7, 43, 55);
+    border-radius: 1em;
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
+-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
+box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
+}
+.titulo-ingredientes{ 
+    width: 100%;
+    height: 10%;
+    margin: 1em 0em;
+    padding: 1em 0em;
+
+}
+.tituloingre{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    margin: 0em 0.5em;
+    padding: 0em 0.5em;
+}
+.ingredientes {
+    width:100%;
+    height: 90%;
+    margin: 1em 0em;
+    padding: 1em 0em;
+}
+.Ingredientes-bowl1{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    margin: 0em 3em;
+    padding: 0em 0.5em;
+}
+
+.abajo{
+    width: 100%;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    align-items: center;
+    
+}
+.galery{
+    width: 100%;
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0em, 1em;
+}
+.box-galery{
+    
+    width: 14%;
+    height: 18em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    
+    
+}
+.box-galery1{
+    width: 14%;
+    height: 18em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
+-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
+box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
+    
+    
+}
+.boximg{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tiposdebowls{
+    height: 10em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-img{
+    color: rgb(0, 0, 0);
+    font-size: 1.4em;
+    margin: 0em 0.2em;
+    padding: 0em 0.5em;
+    outline: none;
+}
+a{
+    outline: none;
+}
+.abajo{
+
+}
+
+
+
+/*inicio nosotras*/
+.nosotras{
+    background-color:  rgb(217, 217, 217);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+
+}
+.arribanosotras{
+    width: 100%;
+    height: 14em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.quienessomos{
+    color: rgb(7, 43, 55);
+    font-size: 2.5em;
+    margin: 0em 0.5em;
+    padding: 0em 0.5em;
+}
+.abajonosotras{
+    width: 100%;
+    height: 110em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: solid;
+}
+.izquierda {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    border: solid;
+   
+}
+.Dani{
+    border: solid;
+    height: 30em;
+    width: 20em;
+    background-color: aquamarine;
+
+}
+.fotocuadrado {
+    height: 70%;
+    width: 100%;
+    border: solid;
+    background-image: cover;
+    margin: 0;
+    padding: 0;
+}
+.fotoperfil {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.abajonosotras .izquierda .Dani img .fotoperfil{
+
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.abajodani {
+    height: 30%;
+    width: 100%;
+    border: solid;
+}
+.nombre{
+    height: 30%;
+    width: 100%;
+    color: white;
+    font-size: 1.4em;
+}
+.derecha {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    border: solid;
+}
+
+
+/*inicio contacto*/
+.contacto{
+    background-color: rgb(7, 43, 55);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+} 
+.titulocontacto {
+    width: 100%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulocontacto1 {
+    font-size: 3em;
+    color: rgb(209, 162, 74);
+}
+.subtitulocontacto {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textocontacto {
+    font-size: 1.3em;
+    color: white;
+}
+
+.correo {
+    width: 40em;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid white 2px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+.correopersona {
+    height: 100%;
+    font-size: 1em;
+    color: white;
+    background-color: rgb(7, 43, 55);
+    border: none;
+}
+.botonsus {
+    height: 2.8em;
+    width: 14em;
+    background-color: rgb(209, 162, 74);
+    color: white;
+    font-size: 1em;
+    border-radius:10px ;
+    border: none;
+}
+.terminos {
+    width: 32em;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.cuadradoboton {
+    width: 1em;
+    height: 1em;
+    border: solid rgb(209, 162, 74) 2px;
+    border-radius: 4px;
+    background-color: rgb(7, 43, 55);
+}
+.acepto {
+    color: white;
+    font-size: 1em;
+}
+
+    
