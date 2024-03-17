@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-family: "Niramit", sans-serif;
 }
+
 body {
     width: 100%;
     height: 100%;
@@ -21,11 +22,12 @@ body {
     background-color: rgb(53, 95, 95);
     width: 100%;
     height: 100vh;
-    background-image: url(Pantalla\ 1\ fondo\ 1_Mesa\ de\ trabajo\ 1.png); 
+    background-image: url(Pantalla\ 1\ fondo\ 1_Mesa\ de\ trabajo\ 1.png);
     background-size: cover;
 }
+
 .nav {
-    
+
     width: 100%;
     height: 3em;
     display: flex;
@@ -33,23 +35,27 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .barnav {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     color: rgb(255, 255, 255);
     padding: 1em;
+    padding-top: 4rem;
+
 }
 
 
 .logo {
     width: 4em;
     height: 4em;
-   
+
 }
+
 .menu {
     width: 20%;
     height: 100%;
@@ -71,7 +77,7 @@ body {
 
 
 /*inicio menu*/
-.menu-medio{
+.menu-medio {
     background-color: rgb(217, 217, 217);
     width: 100%;
     height: 120vh;
@@ -80,7 +86,8 @@ body {
     justify-content: top;
     align-items: center;
 }
-.arriba-menu{
+
+.arriba-menu {
     width: 100%;
     height: 30em;
     display: flex;
@@ -89,7 +96,8 @@ body {
     align-items: center;
 
 }
-.izquierda-menu{
+
+.izquierda-menu {
     width: 40%;
     height: 30em;
     display: flex;
@@ -100,16 +108,16 @@ body {
     background-size: cover;
 
 }
+
 .bowlgrande {
     height: 25em;
     width: 25em;
 
 }
-.circulocomida{
-    
-}
 
-.centro-menu{
+.circulocomida {}
+
+.centro-menu {
     width: 30%;
     height: 30em;
     display: flex;
@@ -120,21 +128,25 @@ body {
 
 
 }
+
 .titulochiqui {
-    color:black;
+    color: black;
     margin: 2em 0em;
     padding: 0.4em 0em;
     font-size: 1.6em;
 }
+
 .Titulogrande {
     color: rgb(0, 34, 41);
     font-size: 3em;
     margin: 1em, 0em;
 
 }
-.calorias{
-    font-size: 1.4em; 
+
+.calorias {
+    font-size: 1.4em;
 }
+
 .derecha-menu {
     width: 30%;
     height: 30em;
@@ -144,6 +156,7 @@ body {
     align-items: end;
 
 }
+
 .cuadrado-grande {
     width: 17em;
     height: 90%;
@@ -151,46 +164,51 @@ body {
     padding: 0em 0em;
     background-color: rgb(7, 43, 55);
     border-radius: 1em;
-    -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
--moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.59);
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.59);
 }
-.titulo-ingredientes{ 
+
+.titulo-ingredientes {
     width: 100%;
     height: 10%;
     margin: 1em 0em;
     padding: 1em 0em;
 
 }
-.tituloingre{
+
+.tituloingre {
     color: rgb(255, 255, 255);
     font-size: 1.5em;
     margin: 0em 0.5em;
     padding: 0em 0.5em;
 }
+
 .ingredientes {
-    width:100%;
+    width: 100%;
     height: 90%;
     margin: 1em 0em;
     padding: 1em 0em;
 }
-.Ingredientes-bowl1{
+
+.Ingredientes-bowl1 {
     color: rgb(255, 255, 255);
     font-size: 1em;
     margin: 0em 3em;
     padding: 0em 0.5em;
 }
 
-.abajo{
+.abajo {
     width: 100%;
     height: 30em;
     display: flex;
     flex-direction: row;
     justify-content: top;
     align-items: center;
-    
+
 }
-.galery{
+
+.galery {
     width: 100%;
     height: 20em;
     display: flex;
@@ -199,8 +217,9 @@ box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
     align-items: center;
     padding: 0em, 1em;
 }
-.box-galery{
-    
+
+.box-galery {
+
     width: 14%;
     height: 18em;
     display: flex;
@@ -208,10 +227,11 @@ box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
     justify-content: center;
     align-items: center;
     border-radius: 1em;
-    
-    
+
+
 }
-.box-galery1{
+
+.box-galery1 {
     width: 14%;
     height: 18em;
     background-color: rgb(255, 255, 255);
@@ -220,44 +240,47 @@ box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
     justify-content: center;
     align-items: center;
     border-radius: 1em;
-    -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
--moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.59);
-    
-    
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.59);
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.59);
+
+
 }
-.boximg{
-   
+
+.boximg {
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.tiposdebowls{
+
+.tiposdebowls {
     height: 10em;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.btn-img{
+
+.btn-img {
     color: rgb(0, 0, 0);
     font-size: 1.4em;
     margin: 0em 0.2em;
     padding: 0em 0.5em;
     outline: none;
 }
-a{
+
+a {
     outline: none;
 }
-.abajo{
 
-}
+.abajo {}
 
 
 
 /*inicio nosotras*/
-.nosotras{
-    background-color:  rgb(217, 217, 217);
+.nosotras {
+    background-color: rgb(217, 217, 217);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -265,7 +288,8 @@ a{
     margin: 1em;
 
 }
-.arribanosotras{
+
+.arribanosotras {
     width: 100%;
     height: 14em;
     display: flex;
@@ -275,13 +299,15 @@ a{
 
 
 }
-.quienessomos{
+
+.quienessomos {
     color: rgb(7, 43, 55);
     font-size: 2.5em;
     margin: 0em 0.5em;
     padding: 0em 0.5em;
 }
-.abajonosotras{
+
+.abajonosotras {
     width: 100%;
     height: 110em;
     display: flex;
@@ -290,6 +316,7 @@ a{
     justify-content: space-around;
     border: solid;
 }
+
 .izquierda {
     height: 100%;
     width: 50%;
@@ -299,15 +326,21 @@ a{
     align-items: center;
     border-radius: 1em;
     border: solid;
-   
-}
-.Dani{
-    border: solid;
-    height: 30em;
-    width: 20em;
-    background-color: aquamarine;
 
 }
+
+.Dani {
+    background-image: url(./Dani.png);
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    height: 80%;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    position: relative;
+    background-size: cover;
+}
+
 .fotocuadrado {
     height: 70%;
     width: 100%;
@@ -316,15 +349,8 @@ a{
     margin: 0;
     padding: 0;
 }
+
 .fotoperfil {
-    height: 100%;
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-}
-
-.abajonosotras .izquierda .Dani img .fotoperfil{
-
     height: 100%;
     width: 100%;
     margin: 0%;
@@ -336,12 +362,19 @@ a{
     width: 100%;
     border: solid;
 }
-.nombre{
-    height: 30%;
-    width: 100%;
+
+.nombre {
     color: white;
     font-size: 1.4em;
+    position: absolute;
+    background-color: darkblue;
+    bottom: 0%;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
 }
+
 .derecha {
     height: 100%;
     width: 50%;
@@ -355,7 +388,7 @@ a{
 
 
 /*inicio contacto*/
-.contacto{
+.contacto {
     background-color: rgb(7, 43, 55);
     width: 100%;
     height: 50vh;
@@ -363,8 +396,9 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-} 
+
+}
+
 .titulocontacto {
     width: 100%;
     height: 4em;
@@ -372,10 +406,12 @@ a{
     align-items: center;
     justify-content: center;
 }
+
 .titulocontacto1 {
     font-size: 3em;
     color: rgb(209, 162, 74);
 }
+
 .subtitulocontacto {
     width: 100%;
     height: 3em;
@@ -383,6 +419,7 @@ a{
     align-items: center;
     justify-content: center;
 }
+
 .textocontacto {
     font-size: 1.3em;
     color: white;
@@ -402,6 +439,7 @@ a{
     justify-content: space-between;
     padding: 1em;
 }
+
 .correopersona {
     height: 100%;
     font-size: 1em;
@@ -409,15 +447,17 @@ a{
     background-color: rgb(7, 43, 55);
     border: none;
 }
+
 .botonsus {
     height: 2.8em;
     width: 14em;
     background-color: rgb(209, 162, 74);
     color: white;
     font-size: 1em;
-    border-radius:10px ;
+    border-radius: 10px;
     border: none;
 }
+
 .terminos {
     width: 32em;
     height: 3em;
@@ -426,6 +466,7 @@ a{
     align-items: center;
     justify-content: space-around;
 }
+
 .cuadradoboton {
     width: 1em;
     height: 1em;
@@ -433,9 +474,8 @@ a{
     border-radius: 4px;
     background-color: rgb(7, 43, 55);
 }
+
 .acepto {
     color: white;
     font-size: 1em;
 }
-
-    
